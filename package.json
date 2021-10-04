@@ -1,0 +1,21 @@
+{
+  "name": "image_uploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.cjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-modules ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compress-images": "^1.9.9",
+    "express": "^4.17.1",
+    "imagemin": "^8.0.1",
+    "jimp": "^0.16.1",
+    "optipng-bin": "^7.0.0",
+    "pngquant": "^4.0.0",
+    "pngquant-bin": "^6.0.0"
+  }
+}
