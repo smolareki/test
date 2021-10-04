@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+    test:
+        container_name: test
+        restart: always
+        build: 
+            dockerfile: ./Dockerfile
+            context: .
+        ports: ["9005:9005"]
+
